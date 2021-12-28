@@ -3,7 +3,7 @@ const anime = lewd.Anime;
 const { MessageEmbed } = require('discord.js');
 
 module.exports = {
-	name: 's!kitsune',
+	name: 'kitsune',
 	category: 'fun',
 
 	description: 'Get Fresh pat Images :D',
