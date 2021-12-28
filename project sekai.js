@@ -1,6 +1,6 @@
 module.exports = {
-    name: 's!pjsekai',
-    aliases: ['s!pjsekai'],
+    name: 'pjsekai',
+    aliases: ['pjsekai'],
     run: async (client, message) => {
         const pjsekai = [
             'https://cdn.discordapp.com/attachments/897142960276254760/918561818975285288/FB_IMG_1639072568618.jpg',
