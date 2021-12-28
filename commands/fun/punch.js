@@ -2,9 +2,9 @@ const random = require('something-random-on-discord').Random;
 const { MessageEmbed } = require('discord.js');
 
 module.exports = {
-	name: 's!punch',
+	name: 'punch',
 	category: 'fun',
-	aliases: ['s!Punch','s!punch'],
+	aliases: ['Punch','punch'],
 	description: 'Get Fresh punch Images :D',
 	run: async (client, message, args) => {
 		let data = await random.getAnimeImgURL('punch');
