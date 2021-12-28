@@ -1,6 +1,6 @@
 module.exports = {
-    name: 's!smile',
-    aliases: ['s!smile', 's!Smile'],
+    name: 'smile',
+    aliases: ['smile', 'Smile'],
     run: async (client, message) => {
         const smile = [
             'https://i.pinimg.com/736x/96/84/79/96847984cd5c9943d1729f452ba68b99.jpg',
