@@ -1,6 +1,6 @@
 module.exports = {
-    name: 's!hololive',
-    aliases: ['s!hololive'],
+    name: 'hololive',
+    aliases: ['hololive'],
     run: async (client, message) => {
         const ayane = [
             'https://cdn.discordapp.com/attachments/849708259552133180/855243064071290890/img_001.jpg',
