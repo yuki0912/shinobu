@@ -1,6 +1,6 @@
 module.exports = {
-    name: 's!miku',
-    aliases: ['s!miku', 's!Miku'],
+    name: 'miku',
+    aliases: ['miku', 'Miku'],
     run: async (client, message) => {
         const miku = [
             'https://cdn.discordapp.com/attachments/834445046594011176/892404755660431410/IMG_20210928_213650.jpg',
