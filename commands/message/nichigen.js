@@ -1,6 +1,6 @@
 module.exports = {
-    name: 's!nijigen',
-    aliases: ['s!nijigen'],
+    name: 'nijigen',
+    aliases: ['nijigen'],
     run: async (client, message) => {
         const nijigen = [
             'https://cdn.discordapp.com/attachments/777060153504694272/878705047968550993/unknown.png',
