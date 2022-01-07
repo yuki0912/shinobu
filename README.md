@@ -8,10 +8,10 @@
 
  ## Invite link
 
-[invite Shinobu bot](https://discord.com/api/oauth2/authorize?client_id=865614891193073695&permissions=8&scope=bot)
-    
- [Join My Server](https://discord.gg/gmEc5WKrvR)
-   
+[invite Shinobu bot](https://discord.com/api/oauth2/authorize?client_id=865614891193073695&permissions=8&scope=bot) | [Join My Server](https://discord.gg/gmEc5WKrvR)
+
+<a href="https://discord.gg/gmEc5WKrvR"><img src="https://discord.com/api/guilds/773668217163218944/widget.png?style=banner2"></a>
+
     
 
 ## Shinobu
