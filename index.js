@@ -1,5 +1,6 @@
 const { Collection, Client, Discord } = require('discord.js');
 const fs = require('fs');
+const { keep_alive } = require("./keep_alive");
 const client = new Client({
     disableEveryone: true,
     partials: ['MESSAGE', 'CHANNEL', 'REACTION']
