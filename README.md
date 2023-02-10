@@ -4,22 +4,23 @@
   Inuyose Shinobu
   <br>
   <br>
-</h1>
+<h11>
 
 
 
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ## command shinobu
 
-- [✔]anime
-- [✔]neko
+- [x] anime
+- [x] neko
+- [x] report command
+
 
 
  ## Invite link
 
-[invite Shinobu bot](https://discord.com/oauth2/authorize?client_id=865614891193073695&scope=bot&permissions=1099511627775) | [Join My Server](https://discord.gg/Rs3Zht9YJk)
-
+[invite Shinobu bot](https://discord.com/oauth2/authorize?client_id=865614891193073695&scope=bot&permissions=1099511627775) | [Join My Server](https://discord.gg/pAEQq7q2Gj)
 
     
 
