@@ -11,17 +11,16 @@
 
 
 ## command shinobu
-
 - [x] anime
 - [x] neko
-- [x] report command
+- [x] report 
+- [x] ayane
 
 
 
  ## Invite link
-
-[invite Shinobu bot](https://discord.com/oauth2/authorize?client_id=865614891193073695&scope=bot&permissions=1099511627775) | [Join My Server](https://discord.gg/pAEQq7q2Gj)
-
+<a href="https://discord.gg/huM4KG7KnS"><img src="https://cdn.discordapp.com/attachments/1065852285151883347/1095751205189320806/153.png"/></a>
+<br><br>
     
 
 ## Shinobu
