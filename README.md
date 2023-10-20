@@ -19,11 +19,12 @@
 
 
  ## Invite link
-<a href="https://discord.gg/huM4KG7KnS"><img src="https://cdn.discordapp.com/attachments/1065852285151883347/1095751205189320806/153.png"/></a>
+<a href="[https://discord.gg/huM4KG7KnS](https://discord.gg/QSJRxjGBWU)"><img src=""/></a>
+
 <br><br>
     
-
 ## Shinobu
 This is my first coding 
 
 discord.js v12
+
