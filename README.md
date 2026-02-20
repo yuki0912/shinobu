@@ -19,7 +19,7 @@
 
 
  ## Invite link
-<a href="[https://discord.gg/huM4KG7KnS](https://discord.gg/QSJRxjGBWU)"><img src=""/></a>
+<a href="[https://discord.gg/CsHvkh3jGZ](https://discord.gg/CsHvkh3jGZ)"><img src=""/></a>
 
 <br><br>
     
