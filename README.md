@@ -19,9 +19,10 @@
 
 
  ## Invite link
-<a href="[https://discord.gg/CsHvkh3jGZ](https://discord.gg/CsHvkh3jGZ)"><img src=""/></a>
-
-<br><br>
+<p align="left"> 
+    <a href="https://discord.gg/CsHvkh3jGZ" target="_blank"> <img src="https://img.icons8.com/color/48/000000/discord.png"/> </a>
+    
+</p>
     
 ## Shinobu
 This is my first coding 
