@@ -15,8 +15,6 @@ app.listen(port, "0.0.0.0", () => {
 const client = new Client({
     disableEveryone: true,
     partials: ["MESSAGE", "CHANNEL", "REACTION"],
-    // 注意：如果是 discord.js v13/v14，此處需要額外填寫 intents 
-    // 這裡保留你原本的 v12 寫法以確保舊專案相容性
 });
 
 const player = new Player(client);
@@ -38,14 +36,11 @@ client.player.on("playlistAdd", (message, queue, playlist) => {
     );
 });
 
-// 載入設定檔
+// 載入設定檔（現在只從這裡拿 prefix）
 const config = require("./config.json");
 const prefix = config.prefix;
 
-// 修正重點：Token 雙重保險機制
-// 優先使用 Render 後台的環境變數 DISCORD_TOKEN，如果沒有，則使用 config.json 裡的 token
-const token = process.env.DISCORD_TOKEN || config.token;
-
+// 設定指令與分類
 client.commands = new Collection();
 client.aliases = new Collection();
 client.categories = fs.readdirSync("./commands/");
@@ -60,9 +55,9 @@ client.on("ready", () => {
     client.user.setPresence({
         activity: {
             name: `💻s!help | ${client.guilds.cache.size} Server`,
-            type: "LISTENING", // PLAYING, WATCHING, STREAMING, LISTENING
+            type: "LISTENING", 
         },
-        status: "online", // dnd, idle, invisible, online
+        status: "online", 
     });
     console.log(`${client.user.username} ✅ 上線成功！`);
 });
@@ -85,10 +80,12 @@ client.on("message", async (message) => {
     if (command) command.run(client, message, args);
 });
 
-// 使用剛剛處理好的 token 變數登入
+// 100% 透過環境變數登入
+const token = process.env.DISCORD_TOKEN;
+
 if (!token) {
-    console.error("❌ 錯誤：找不到 Discord Bot Token！請確認 Render 環境變數或 config.json 有正確設定。");
-    process.exit(1);
+    console.error("❌ 錯誤：找不到環境變數 DISCORD_TOKEN！請確認你在 Render 後台有正確設定。");
+    process.exit(1); // 沒 Token 直接中斷，避免產生無效重試
 }
 
 client.login(token);
